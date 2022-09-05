@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Theme</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/92d0c19eb6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <a class="logo"  href="#home"><img src="https://www.edu.unideb.hu/elemek/logo_csempehez.png" alt=""></a> >
+             <div class="nav-links"  id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="#programs">PROGRAMS</a></li>
+                     <li><a href="#campus">CAMPUS</a></li>
+                     <li><a href="#timeline">MY HISTORY</a></li>
+                     <li><a href=#favourites>FAVOURITES</a></li>
+                     <li><a href="#contact">CONTACT</a></li>
+  
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+    </section>
+    
+    <section class="header" id="home">
+        <div class="text-box" >
+                    <h1>University of Debrecen</h1>
+                    <p>
+                        Welcome to the home of great heroes
+                    </p>
+                    <a href="" class="toknow-button">Visit Us To Know More</a>
+                </div>
+
+    </section>
+
+    <!--Programs--> 
+    <section class="Programs" id="programs">
+        <h1>Programs</h1>
+        <p>These Are The Services We Offer</p>
+
+        <div class="row">
+            <div class="Programs-col">
+                <h3>Pre-Graduate Program</h3>
+                <p>
+                    At UD, we have a couple of programs which include: International Foundation Year, Intensive Foundation Semester, 
+                    English Language Courses I & II, Basic Medicine Course, Preparatory course for classical instrument and voice studies and a few others.
+                </p>
+            </div>
+
+            <div class="Programs-col">
+                <h3>Under-Graduate Program</h3>
+                <p>
+                   Currently, we have 8 undergraduate pograms: Science Programs, IT, Music, Humanities, Health Science, Engineering, Business and Agriculture Programs. For more enquiry, <a href="https://edu.unideb.hu/p/undergraduate-programs">Click here</a>
+                </p>
+            </div>
+
+            <div class="Programs-col">
+                <h3>Post-Graduate Program</h3>
+                <p>
+                    For the post graduate, we have the same programs as the undergraduate programs, and an addition of Law Program.
+            </div>
+        </div>
+
+    </section>
+
+    <!-- campus -->
+
+
+    <section class="campus" id="campus">
+        <h1>Our Campus</h1>
+        <p>Here are our various campuses</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="https://fastly.4sqi.net/img/general/600x600/ZTaLBgrxWS4wFSLCZI-ZbvIOc4cdXSVZHx1fwd2pQJ4.jpg" alt="">
+                    <div class="layer">
+                        <h3> Kassai Campus</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/DebrecenDSCN3583.JPG" alt="">
+                    <div class="layer">
+                        <h3> Main Campus</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="https://www.dehir.hu/upload/images/wp_cikkek/2018/agrarbelso.jpg" alt="">
+                    <div class="layer">
+                        <h3> Agrar Campus</h3>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section><div class="0"></div>
+
+<!--Timeline-->
+<div class="time" id="timeline">
+    <h2>Academic Story</h2>
+    <div class="timelinecontainer">
+        
+        <div class="timeline">
+            <ul>
+                <li>
+                    <div class="timeline-content">
+                        <h6 class="date">2007-2013</h6>
+                        <h5>Primary School</h5>
+                        <p>I had my primary school at Living Fountain International School. It was a small school and luckily and unluckily, it was in my estate. It was a bit far from 
+                            from my house so my mum would take me to school. At the same time, as shocking as it sounds, I was late to school several time. 
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h6 class="date">2013-2019</h6>
+                        <h5>High School</h5>
+                        <p>Life in High Story was really rigid and boring. Go to school, go back home.
+                            Go to church, and repeat the same cycle every week. Bunch of rules that to be very honest, did not make sense. At the end of the day, I guess it molded me into the man I have become.  
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h6 class="date">2013-2023</h6>
+                        <h5>University Life</h5>
+                        <p>University so far has been a bit of journey. Really fun, eye opening and experienced filled. 
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<section class="favourites" id="favourites">
+    <div class="container">
+        <h2>Favourites</h2>
+        <div class="row">
+            <div class="col-md-3 picture-pic text-center">
+                <div class="img-box">
+                    <img src="https://images.wallpaperscraft.com/image/single/code_programming_monitor_209719_1280x720.jpg" class="img-responsive">
+                       <h2>My coding experience</h2>
+                       <p>As I am studying Computer Science, I have done quite a number of projects. <br>
+                    I have created a calculator, a hovering website, and a flipcard. Here is a link to my <a href="https://github.com/gideonawotunde">github</a></p>
+                </div>
+            </div>
+           
+            <div class="col-md-3 picture-pic text-center">
+                <div class="img-box">
+                    <img src="https://images.food52.com/9XbcdjwxJnSguJWB_YeA5cak8lM=/2016x1344/583d2633-65c0-43d6-9b52-cba0c8fa1399--2019-1210_nigerian-jollof-rice_3x2_rocky-luten_006.jpg" class="img-responsive">
+                       <h2>My Favourites</h2>
+                       <p>This is an African dish that is basically made from rice cooked in tomato sauce. It is argued to come from many countries, but as a Nigerian that I am, I would say it is an authentic Nigerian dish.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="contactcontainer">
+    <section id="contact">
+        <h1>Get in Touch</h1>
+      <div class="row"> 
+        <div class="col-md-6">
+            <form class="contact-form">
+                <div class="form-group">
+                   <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+            </form>
+            <form class="contact-form">
+                <div class="form-group">
+                   <input type="number" class="form-control" placeholder="Your Phone Number">
+                </div>
+            </form>
+            <form class="contact-form">
+                <div class="form-group">
+                   <input type="Email id" class="form-control" placeholder="Your E-mail">
+                </div>
+            </form>
+            <form class="contact-form">
+                <div class="form-group">
+                   <textarea class="form-control" rows="4" placeholder="Your Message" ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div class="col-md-6 contact-info">
+            <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i> XYZ utca, Budapest, Hungary </div>
+            <div class="follow"><b>Phone:</b><i class="fa fa-phone"></i>  +36 12 345 67 89 </div>
+            <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i> example@website.com </div>
+            
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>You can contact us on our various social media platform:</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    </div>
+    <p>Made with <i class="fa-brands fa-html5"></i> & <i class="fa-brands fa-css3-alt"></i> by Awotunde Gideon </p>
+    </section>
+</div>
+  
+
+    
+<!----JavaScript for Toggle Menu---->
+    <script src = "bootstrap.js"> </script>    
+</body>
+</html>
